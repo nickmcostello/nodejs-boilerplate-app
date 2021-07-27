@@ -1,0 +1,21 @@
+{
+	"name": "I9-Converter",
+	"version": "1.0.0",
+	"description": "",
+	"main": "src/app.js",
+	"scripts": {
+		"start": "node src/app.js",
+		"test": "jest",
+		"lint": "./node_modules/.bin/eslint ./"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"eslint": "^7.31.0",
+		"jest": "^27.0.6"
+	},
+	"dependencies": {
+		"eslint-plugin-jest": "^24.4.0"
+	}
+}
